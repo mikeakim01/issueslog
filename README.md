@@ -1,4 +1,4 @@
-# 🎫 Support tickets template
+# 🎫 Technical Issue tracking
 
 A simple Streamlit app showing an internal tool that lets you create, manage, and visualize support tickets. 
 
