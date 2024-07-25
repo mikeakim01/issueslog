@@ -1,7 +1,6 @@
 import datetime
 import random
 
-import altair as alt
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -9,11 +8,12 @@ import streamlit as st
 # Show app title and description.
 st.set_page_config(page_title=" Technical Issue Tracking", page_icon="🔧")
 st.title("🔧 Technical Issue Tracking")
-st.write(
-    """
-    
-    """
+sst.info(
+    "Leave your Registration number if available and phone number ",
+    icon="✍️",
 )
+    
+    
 
 # Create a random Pandas dataframe with existing tickets.
 if "df" not in st.session_state:
