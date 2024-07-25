@@ -8,7 +8,7 @@ import streamlit as st
 
 # Show app title and description.
 st.set_page_config(page_title=" Technical Issue Tracking", page_icon="🔧")
-st.title("🔧 Support tickets")
+st.title("🔧 Technical Issue Tracking")
 st.write(
     """
     
